@@ -1,0 +1,19 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package abstraction;
+
+/**
+ *
+ * @author EsraaHus93
+ */
+interface PersonInterface {
+   public static final String str = "127634"; 
+   public double getPerson();
+   public void printInfo();
+   abstract void sumOfTwo(int num1,int num2);
+
+ 
+}
